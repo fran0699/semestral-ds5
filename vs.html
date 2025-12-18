@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PokéFinder - VS</title>
+  <link rel="stylesheet" href="shared.css" />
+</head>
+<body data-pagina="vs">
+  <!--
+    Página: VS (vs.html)
+    ------------------------------------------------------------
+    Usamos data-pagina en <body> para que shared.js sepa
+    qué módulo de JS debe inicializar (buscar, historico, favoritos o vs).
+    Así logramos “1 solo JS” para 4 pantallas.
+  -->
+
+  <main class="app">
+    <div class="pokebola"></div>
+
+    <div class="capa">
+      <header class="cartel">
+        <h1>⚔️ POKÉMON VS ⚔️</h1>
+      </header>
+
+      <section class="frente">
+        <nav class="menu">
+          <a class="btn-nav" href="index.html">🔎 Buscar</a>
+          <a class="btn-nav" href="historico.html">📜 Histórico</a>
+          <a class="btn-nav activo" href="vs.html">⚔️ VS</a>
+          <a class="btn-nav" href="favoritos.html">❤️ Favoritos</a>
+        </nav>
+
+        <div class="panel">
+          <div class="vs-top">VS</div>
+
+          <div class="vs-sub">
+            <input id="vs-pokemon-1" type="text" placeholder="POKÉMON 1..." autocomplete="off" />
+            <button id="btn-vs-buscar-1" class="btn btn-rojo" type="button">Buscar</button>
+
+            <input id="vs-pokemon-2" type="text" placeholder="POKÉMON 2..." autocomplete="off" />
+            <button id="btn-vs-buscar-2" class="btn btn-rojo" type="button">Buscar</button>
+          </div>
+
+          <button id="btn-batalla" class="btn btn-rojo btn-grande boton-batalla" type="button" disabled>
+            ⚔️ ¡Batallar!
+          </button>
+
+          <div id="zona-vs-cartas" class="vs-cajas"></div>
+          <div id="zona-vs-resultado"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- shared.js se carga con defer para que el HTML se dibuje primero y luego corra el JS. -->
+  <script src="shared.js" defer></script>
+</body>
+</html>

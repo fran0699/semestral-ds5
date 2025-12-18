@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PokéFinder - Histórico</title>
+  <link rel="stylesheet" href="shared.css" />
+</head>
+<body data-pagina="historico">
+  <!--
+    Página: Histórico (historico.html)
+    ------------------------------------------------------------
+    Usamos data-pagina en <body> para que shared.js sepa
+    qué módulo de JS debe inicializar (buscar, historico, favoritos o vs).
+    Así logramos “1 solo JS” para 4 pantallas.
+  -->
+
+  <main class="app">
+    <div class="pokebola"></div>
+
+    <div class="capa">
+      <header class="cartel">
+        <h1>📜 HISTÓRICO</h1>
+      </header>
+
+      <section class="frente">
+        <nav class="menu">
+          <a class="btn-nav" href="index.html">🔎 Buscar</a>
+          <a class="btn-nav activo" href="historico.html">📜 Histórico</a>
+          <a class="btn-nav" href="vs.html">⚔️ VS</a>
+          <a class="btn-nav" href="favoritos.html">❤️ Favoritos</a>
+        </nav>
+
+        <div class="panel">
+          <div id="lista-historico" class="lista"></div>
+
+          <button id="btn-limpiar-historico" class="btn btn-rojo btn-grande" type="button">
+            🗑️ Limpiar todo
+          </button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- shared.js se carga con defer para que el HTML se dibuje primero y luego corra el JS. -->
+  <script src="shared.js" defer></script>
+</body>
+</html>
