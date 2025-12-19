@@ -1,6 +1,6 @@
-# 🎮 PokéFinder - Aplicación Web con Consumo de API
+#  PokéFinder - Aplicación Web con Consumo de API
 
-## 📋 Información del Proyecto
+##  Información del Proyecto
 
 **Nombre del Estudiante:**  
 - Francisco Lata (8-940-1000)  
@@ -9,10 +9,10 @@
 **Repositorio:** [https://github.com/fran0699/semestral-ds5](https://github.com/fran0699/semestral-ds5)  
 **GitHub Pages:** [https://fran0699.github.io/semestral-ds5/](https://fran0699.github.io/semestral-ds5/)
 
-## 🚀 Instrucciones de Uso
+##  Instrucciones de Uso
 
 ### 1. **Acceso a la aplicación**
-- Abre el enlace de GitHub Pages en cualquier navegador moderno
+- Abre el enlace de GitHub Pages en cualquier navegador
 - La aplicación está completamente funcional sin necesidad de instalación adicional
 
 ### 2. **Navegación entre páginas**
@@ -70,9 +70,9 @@ La aplicación cuenta con 4 páginas principales:
 - **Responsive**: Funciona en dispositivos móviles y desktop
 - **Sin dependencias**: JavaScript vanilla puro
 
-## 📸 Capturas de Pantalla
+##  Capturas de Pantalla
 
-## 📊 Rúbrica de Evaluación
+##  Rúbrica de Evaluación
 
 | Criterio | Excelente (100%) | Bueno (75%) | Regular (50%) | Deficiente (25%) | Puntaje |
 |----------|------------------|-------------|---------------|------------------|---------|
@@ -82,7 +82,7 @@ La aplicación cuenta con 4 páginas principales:
 | **Manejo de Errores** | ✅ Todos los errores manejados con UX clara | Mayoría de errores manejados | Algunos errores manejados | Sin manejo de errores | 100% |
 | **Caché/Storage** | ✅ Sistema completo con TTL y limpieza | Sistema funcional básico | Implementación parcial | No implementado | 100% |
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - **HTML5**: Estructura semántica
 - **CSS3**: Estilo Brutalist con Variables CSS, Grid y Flexbox
